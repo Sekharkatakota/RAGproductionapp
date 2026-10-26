@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.venu/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Local runtime data
+qdrant_storage/
+uploads/
